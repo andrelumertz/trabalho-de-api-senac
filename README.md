@@ -1,21 +1,43 @@
-API RESTful - Sistema de Cinema
-API simples para gerenciar filmes de um cinema. Permite listar, adicionar, atualizar e remover filmes.
+# API RESTful - Sistema de Cinema
 
-Tecnologias
-Node.js
-Express
-Endpoints
-GET /Filmes: Retorna todos os filmes.
-GET /Filmes/
-: Retorna um filme específico pelo id.
-POST /Filmes: Adiciona um novo filme.
-PUT /Filmes/
-: Atualiza um filme existente pelo id.
-DELETE /Filmes/
-: Remove um filme pelo id.
+API simples para gerenciar filmes de um cinema. Permite realizar operações de CRUD (Criar, Ler, Atualizar, Deletar) em filmes.
 
-Contribuindo
-Sinta-se à vontade para contribuir com este projeto. Para isso, faça um fork e envie um pull request.
+### Tecnologias
+
+- **Node.js**
+- **Express**
+
+---
+
+## Endpoints da API
+
+A API oferece os seguintes endpoints para manipulação de filmes:
+
+- **GET /Filmes**  
+  Retorna a lista de todos os filmes cadastrados.
+
+- **GET /Filmes/:id**  
+  Retorna os detalhes de um filme específico, identificado pelo `id`.
+
+- **POST /Filmes**  
+  Adiciona um novo filme à lista.
+
+- **PUT /Filmes/:id**  
+  Atualiza um filme existente, identificado pelo `id`.
+
+- **DELETE /Filmes/:id**  
+  Remove um filme da lista, identificado pelo `id`.
+
+---
+
+## Como Rodar o Projeto
+
+### Pré-requisitos
+
+- **Node.js** instalado. Você pode verificar com:
+  ```bash
+  node -v
+
 
 
 
