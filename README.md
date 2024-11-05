@@ -30,14 +30,6 @@ A API oferece os seguintes endpoints para manipulação de filmes:
 
 ---
 
-## Como Rodar o Projeto
-
-### Pré-requisitos
-
-- **Node.js** instalado. Você pode verificar com:
-  ```bash
-  node -v
-
 
 
 
